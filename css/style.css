@@ -1,0 +1,17 @@
+/* obrót */
+
+.rotate {
+    transform:rotate(45deg);
+}
+
+/* przesunięcie względem osi */
+
+.move {
+    transform: translate(50px, 50px)
+}
+
+/* skalowanie */
+
+.scale {
+    transform: scale(1.5)
+}
