@@ -1,17 +1,31 @@
 /* obrót */
 
-.rotate {
+.rotate img {
     transform:rotate(45deg);
 }
 
 /* przesunięcie względem osi */
 
-.move {
+.move img {
     transform: translate(50px, 50px)
 }
 
 /* skalowanie */
 
-.scale {
-    transform: scale(1.5)
+.scale img {
+    transform: scale(0.5)
+}
+
+/* animacja */
+
+.animation img {
+    animation-name: resize;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes resize {
+    0% {height: 300px}
+    50% {height: 150px}
+    100% {height: 300px}
 }
